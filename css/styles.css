@@ -1,0 +1,25 @@
+#searchbar{
+    float: right;
+}
+.jumbotron{
+    max-height: 74vh;
+}
+.jumbotron h3{
+    margin: 5px; 
+    border: 5px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.jumbotron h4{
+    margin: 5px; 
+    margin-left: 10px;
+    border: 5px;
+    padding: 3px; 
+    font-style: italic; 
+}
+.fa-solid{
+    margin-top: 10vh;
+}
+span{
+    font-weight: bold;
+}
