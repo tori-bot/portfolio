@@ -1,8 +1,11 @@
-#searchbar{
-    float: right;
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+
 }
 .jumbotron{
     max-height: 74vh;
+    width: flex;
 }
 .jumbotron h3{
     margin: 5px; 
@@ -22,4 +25,10 @@
 }
 span{
     font-weight: bold;
+}
+.footer{
+    margin: 5px; 
+    border: 5px;
+    padding: 5px;
+    justify-content: center;
 }
