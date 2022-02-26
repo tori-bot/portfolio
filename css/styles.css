@@ -109,3 +109,11 @@ button{
 .card{
     text-align: center;
 }
+#projects button{
+    background-color: #C70039;
+    color: white;
+    margin: 2%;
+    border: 2%;
+    padding: 2%;
+    border-radius: 30%;
+}
