@@ -1,11 +1,12 @@
 body{
     background-color: #88E0EF;
-    font-family: sans-serif;
-    font-size: large;
+    font-family: 'PT Sans', sans-serif;
+    font-size: larger;
 }
 h2{
     margin: auto;
     text-align: center;
+    font-family: Noto Serif Display, Serif;
 }
 .navbar{
     width: 100%;
