@@ -1,14 +1,9 @@
 h2{
     margin-left: 5%;
 }
-
-
-
 .navbar{
     width: 100%;
     margin-top: 0px;
-    
-
 }
 .jumbotron{
     min-height: 100vh;
@@ -76,4 +71,7 @@ button{
 #hobbies p{
     text-align: center;
     margin-top: 20%;
+}
+.col{
+    margin: auto;
 }
