@@ -49,6 +49,9 @@ span{
 .css{
     background-color: #C70039;
 }
+.form-group{
+    margin: 20px 0px 20px 0px;
+}
 button{
     margin: 15px;
     border: 5px;
