@@ -4,7 +4,8 @@ body{
     font-size: large;
 }
 h2{
-    margin-left: 5%;
+    margin: auto;
+    text-align: center;
 }
 .navbar{
     width: 100%;
@@ -49,9 +50,34 @@ span{
     background-color: #161E54;
     color: gainsboro;
 }
+.card-title{
+    height: 10%;
+}
+#project-h2{
+    margin-top: 5%;
+}
+.card-deck{
+    margin-top: 5%;
+}
+.card{
+    text-align: center;
+}
+.project{
+    margin-top: 5%;
+}
+#projects{
+    margin: 5% 2% 0% 2%;
+    
+}
+#projects button{
+    background-color: #161E54;
+    color: white;
+    padding: 1%;
+    border-radius: 50px;
+}
 .progress{
     height: 3vh;
-    width: 30%;
+    width: 100%;
     margin-top: 2vh;
     float: right;
     
@@ -128,23 +154,4 @@ button{
 }
 #code{
     margin-top: 7%;
-}
-.card-deck{
-    margin-top: 5%;
-}
-.card{
-    text-align: center;
-}
-.project{
-    margin-top: 5%;
-}
-#projects{
-    margin-top: 5%;
-    
-}
-#projects button{
-    background-color: #161E54;
-    color: white;
-    padding: 1%;
-    border-radius: 50px;
 }
