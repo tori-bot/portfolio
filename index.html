@@ -10,7 +10,7 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container"> 
+    <!-- <div class="container">  -->
         <div class="navbar">
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -43,7 +43,6 @@
               </nav>
             
         </div>
-        <div class="container">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <div class="row">
@@ -61,7 +60,7 @@
                 </div>
               </div>
 
-        </div>
+       
         <div class="sidebar">
 
         </div>
@@ -195,23 +194,34 @@
 
 
         </div>
-        <div id="hobbies">
+        <div id="hobbies" class="container">
             <h2>Hobbies</h2>
-            <div>
-                <h3>Photography</h3>
-                <img src="images/photo.jpg" alt="picture">
-                <a>During my free time I like taking pictures of random people and generally meaningless things. Photography gives me a chance to view things from a new perspective.</a>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/photo.jpg" alt="picture">
+                </div>
+                <div class="col-md-6">
+                    <h3>Photography</h3>
+                    <p>During my free time I like taking pictures of random people and generally meaningless things. Photography gives me a chance to view things from a new perspective.</p>
+                </div>
             </div>
-            <div>
-                <h3>Cycling</h3>
-                <img src="images/bike.jpg" alt="bike">
-                <a>I have been cycling since I was five years old. Every other evening I spend an hour or two cycling around my neighbourhood. This is good cardio and also helps me clear my mind.</a>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Cycling</h3>
+                    <p>I have been cycling since I was five years old. Every other evening I spend an hour or two cycling around my neighbourhood. This is good cardio and also helps me clear my mind.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bike.jpg" alt="bike">
+                </div>
             </div>
-            <div>
-                <h3>Writing/Reading novels</h3>
-                <img src="images/book.jpg" alt="book">
-                <a>I like to sit back and relax with a good book before I sleep. Besides being a fool proof way of getting myself to sleep, reading has expanded my mind in all kinds of subjects. When I am randomly hit by moments of creativity, i write short stories.</a>
-
+            <div class="row">
+                <div class="col-md-6"> 
+                    <img src="images/book.jpg" alt="book">
+                </div>
+                <div class="col-md-6">
+                    <h3>Writing/Reading novels</h3>
+                    <p>I like to sit back and relax with a good book before I sleep. Besides being a fool proof way of getting myself to sleep, reading has expanded my mind in all kinds of subjects. When I am randomly hit by moments of creativity, i write short stories.</p>
+                </div>
             </div>
 
         </div>
@@ -268,7 +278,7 @@
             <a>tori-bot   <i class="fa-solid fa-copyright"></i> 2022   Victoria Makena</a>
 
         </div>
-    </div>
+    <!-- </div> -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
