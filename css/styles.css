@@ -51,8 +51,9 @@ span{
 }
 .progress{
     height: 3vh;
-    width: 20%;
+    width: 30%;
     margin-top: 2vh;
+    float: right;
     
 }
 .progress-bar p{
