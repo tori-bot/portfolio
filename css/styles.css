@@ -68,10 +68,27 @@ button{
     border: 5%;
     padding: 2%;
 }
+#hobbies{
+    margin-top: 5%;
+}
 #hobbies p{
+    text-align: center;
+    margin-top: 5%;
+}
+#hobbies h3{
     text-align: center;
     margin-top: 20%;
 }
+#hobbies img{
+    border-radius: 80%;
+}
 .col{
     margin: auto;
+}
+.contact{
+    margin-top: 10vh;
+}
+.hobbies{
+    padding: 20px;
+    margin-bottom: 5%;
 }
