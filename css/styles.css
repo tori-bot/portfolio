@@ -1,17 +1,28 @@
+body{
+    background-color: #88E0EF;
+}
 h2{
     margin-left: 5%;
 }
 .navbar{
     width: 100%;
     margin-top: 0px;
+    font-style: oblique;
+    background: #88E0EF;
+}
+.navbar-brand{
+    padding-right: 5%;
 }
 .jumbotron{
     min-height: 100vh;
     width: flex;
+    background-color: #88E0EF;
+    color:black;
+    background-image: url(https://cutewallpaper.org/21/bootstrap-jumbotron-background-image/Bootstrap-Jumbotron-examples-tutorial-Basic-advanced-.jpg);
 }
 .jumbotron h3{
-    margin: 5px; 
-    border: 5px;
+    margin: 5%; 
+    border: 5%;
     padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -29,10 +40,11 @@ span{
     font-weight: bold;
 }
 .footer{
-    margin: 5px; 
-    border: 5px;
+    border: 10px;
     padding: 5px;
     text-align: center;
+    background-color: #111D5E;
+    color: gainsboro;
 }
 .progress{
     height: 3vh;
@@ -60,10 +72,13 @@ button{
     border-radius: 10%;
     padding: 5px;
 }
-.contact ul{
+#contact h2{
+    color: white;
+}
+#contact ul{
     list-style-type: none;
 }
-.contact li{
+#contact li{
     margin: 5%;
     border: 5%;
     padding: 2%;
@@ -85,8 +100,12 @@ button{
 .col{
     margin: auto;
 }
-.contact{
+#contact{
     margin-top: 10vh;
+    background-color:#161E54;
+}
+.form{
+    padding-right: 5%;
 }
 .hobbies{
     padding: 20px;
@@ -106,14 +125,22 @@ button{
 #code{
     margin-top: 7%;
 }
+.card-deck{
+    margin-top: 5%;
+}
 .card{
     text-align: center;
 }
+.project{
+    margin-top: 5%;
+}
+#projects{
+    margin-top: 5%;
+    
+}
 #projects button{
-    background-color: #C70039;
+    background-color: #161E54;
     color: white;
-    margin: 2%;
-    border: 2%;
-    padding: 2%;
-    border-radius: 30%;
+    padding: 1%;
+    border-radius: 50px;
 }
