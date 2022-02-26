@@ -11,7 +11,7 @@ h2{
 
 }
 .jumbotron{
-    max-height: 200vh;
+    min-height: 100vh;
     width: flex;
 }
 .jumbotron h3{
