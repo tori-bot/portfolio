@@ -1,5 +1,7 @@
 body{
     background-color: #88E0EF;
+    font-family: sans-serif;
+    font-size: large;
 }
 h2{
     margin-left: 5%;
@@ -19,6 +21,7 @@ h2{
     background-color: #88E0EF;
     color:black;
     background-image: url(https://cutewallpaper.org/21/bootstrap-jumbotron-background-image/Bootstrap-Jumbotron-examples-tutorial-Basic-advanced-.jpg);
+    text-align: center;
 }
 .jumbotron h3{
     margin: 5%; 
@@ -43,7 +46,7 @@ span{
     border: 10px;
     padding: 5px;
     text-align: center;
-    background-color: #111D5E;
+    background-color: #161E54;
     color: gainsboro;
 }
 .progress{
