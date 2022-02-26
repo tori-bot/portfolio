@@ -1,10 +1,10 @@
 .navbar{
-    display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    
 
 }
 .jumbotron{
-    max-height: 80vh;
+    max-height: 100vh;
     width: flex;
 }
 .jumbotron h3{
@@ -58,10 +58,10 @@ button{
     border-radius: 10%;
     padding: 5px;
 }
-ul{
+.contact ul{
     list-style-type: none;
 }
-li{
+.contact li{
     margin: 5%;
     border: 5%;
     padding: 2%;
