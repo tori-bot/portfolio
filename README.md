@@ -17,5 +17,4 @@ Its features include:
 Here is a link to the github page: 
 https://tori-bot.github.io/portfolio/
 # copyright and license
-This project is licensed by MIT license.
-and its rights are reserved to the author.
+This project is licensed by [MIT license](LICENSE) and its rights are reserved to the author.
